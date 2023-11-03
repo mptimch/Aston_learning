@@ -255,6 +255,9 @@ public class MyArrayList<E> {
     }
 
     private void checkIndex(int index) {
+        if (index == 0) {
+            return;
+        }
         if (index >= size || index < 0) {
             throw new IndexOutOfBoundsException();
         }
