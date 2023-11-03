@@ -11,7 +11,4 @@ target/
 *.iml
 *.ipr
 
-MyArrayList/target
-MyArrayList/.idea
-MyArrayList/target
-workspace.xml
+.idea

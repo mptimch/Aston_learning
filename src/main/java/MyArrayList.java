@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 /**
  * Собственная реализация  <b>ArrayList</b> с использованием Generics.
- * Реализованы не все методы ArrayList
+ * Реализованы наиболее популярные методы ArrayList
  * Поиск реализован по алгоритму quickSort
  * @autor Михаил Тимченко
  * @version 1.0
@@ -24,7 +24,7 @@ public class MyArrayList<E> {
     /**
      * Конструктор ArrayList
      * создаем массив объектов E. Размер - значение по умолчанию
-     * обнуляем фактическое количество элементов ArrayList (size)
+     * обнуляем фактическое количество элементов в списке (size)
      */
     public MyArrayList() {
         array = (E[]) new Object[DEFAULT_ARRAY_SIZE];
